@@ -26,12 +26,13 @@
 {{ end }}
 
 <div class="container-fluid home" id="home">
+<!-- particles.js container -->
+  <div id="particles-js"></div>
   <div
     class="background container-fluid"
     style="background-image: url('{{ strings.TrimSuffix "/" site.BaseURL }}{{ $backgroundImage | relURL }}');"
   >
-  <!-- particles.js container -->
-  <div id="particles-js"></div>
+  
   </div>
   <div class="container content text-center">
     <img src="{{ $authorImage | relURL }}"
