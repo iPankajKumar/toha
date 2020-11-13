@@ -18,6 +18,16 @@
   background-size: cover;
 }
 
+.particles {
+margin: 0px !important;
+top:    0px !important;
+left:   0px !important;
+right:  0px !important;
+bottom: 0px !important;
+z-index: -1;
+}
+
+
 /*
   Resolves https://github.com/hossainemruz/toha/issues/70
 
