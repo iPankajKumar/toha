@@ -1,10 +1,11 @@
 /* This is empty CSS file intended to be overwritten by user's custom CSS file */
 
 #border {
-  border-bottom: solid 3px rgba(0,255,0,.75);
-  position: absolute;
+  border-bottom: solid 4px rgb(242,24,91);
+  display: inline-block;
+    margin-left: 10px;
   right: -7px;
-  width: 20px;
+  width: 13px;
 animation: animated-cursor 600ms steps(30,end) infinite;
 }
 
