@@ -57,11 +57,13 @@ z-index: -1;
 
 .home .greeting {
   color: #f9fafc;
+font-weight: bold;
 }
 
 .home .typing-carousel {
   font-size: 14pt;
   color: #f0f0f0;
+font-weight: bold;
 }
 
 #typing-carousel-data {

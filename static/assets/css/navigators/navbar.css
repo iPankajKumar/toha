@@ -19,7 +19,7 @@
 
 .initial-navbar .navbar-brand {
   color: #c0ccda;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 .initial-navbar li a {
@@ -34,6 +34,7 @@
 
 .navbar-collapse {
   margin-top: -5px;
+font-weight: bold;
 }
 
 .navbar-collapse.show,
