@@ -3,7 +3,7 @@
 #border {
   border-bottom: solid 4px rgb(242,24,91);
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 6px;
   border-radius: 1px;
   width: 13px;
   animation: animated-cursor 600ms steps(30,end) infinite;
