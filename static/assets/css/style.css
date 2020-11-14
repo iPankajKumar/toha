@@ -3,14 +3,14 @@
 #border {
   border-bottom: solid 4px rgb(242,24,91);
   display: inline-block;
-    margin-left: 10px;
-  right: -7px;
+  margin-left: 10px;
+  border-radius: 1px;
   width: 13px;
-animation: animated-cursor 600ms steps(30,end) infinite;
+  animation: animated-cursor 600ms steps(30,end) infinite;
 }
 
 @keyframes animated-cursor{
-  from{border-bottom-color: rgba(0,255,0,.75);}
+  from{border-bottom-color: rgb(242,24,91);}
   to{border-bottom-color: transparent;}
 }
 
